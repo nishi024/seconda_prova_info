@@ -12,7 +12,7 @@ session_start();
 
 <body>
     <div class="container w-25 mt-3 p-3 border border-info rounded">
-        <h1 class="mb-3 text-center">Registrati</h1>
+        <h1 class="mb-3 text-center">Inserire i dati</h1>
         <form action="index.php" method="post">
             Documento: <input type="text" name="documento" id="documento" class="form-control" placeholder="Inserire il documento" required><br>
             Nome: <input type="text" name="nome" id="nome" class="form-control" placeholder="Inserire nome" required><br>
@@ -37,7 +37,7 @@ session_start();
                 <label for="motivoViaggio">Motivo del viaggio:</label>
                 <input type="text" class="form-control" id="motivoViaggio" name="motivoViaggio" placeholder="Inserisci il motivo del viaggio" required>
             </div><br>
-
+            <h1 class="mb-3 text-center">Info Merce</h1>
             <div class="form-group">
                 <label for="categoria">Categoria:</label>
                 <input type="text" class="form-control" id="categoria" name="categoria" placeholder="Inserisci la categoria" required>
